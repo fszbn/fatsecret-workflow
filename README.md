@@ -1,6 +1,20 @@
 # FatSecret Workflow Plugin
 
-Claude Code plugin for the FatSecret iOS team — orchestrates the full feature development lifecycle from story analysis to branch completion.
+Claude Code plugin for the FatSecret delivery team — orchestrates the full feature development lifecycle from story analysis to branch completion.
+
+## Installation
+
+1. **Add the marketplace:**
+   ```bash
+   claude plugins marketplace add fszbn/fatsecret-workflow
+   ```
+
+2. **Install the plugin:**
+   ```bash
+   claude plugins install fatsecret-workflow
+   ```
+
+3. **Verify it's working** — start Claude Code and run `/help` to see the available skills.
 
 ## Prerequisites
 
@@ -96,12 +110,6 @@ These are useful companions but not bundled here — install them separately:
 
 ```bash
 claude plugins add claude-plugins-official/code-simplifier
-```
-
-## Installation
-
-```bash
-claude plugins add <your-git-repo-url>
 ```
 
 ## Skills
