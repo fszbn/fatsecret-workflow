@@ -4,17 +4,29 @@ Claude Code plugin for the FatSecret delivery team — orchestrates the full fea
 
 ## Installation
 
-1. **Add the marketplace:**
+1. **Set your GitHub token** (required for private repo access):
+   ```bash
+   export GITHUB_TOKEN=ghp_your_token_here
+   ```
+   Get a token with `repo` scope at https://github.com/settings/tokens. To make it persistent, add the export to `~/.zshrc`.
+
+2. **Add the marketplace:**
    ```bash
    claude plugins marketplace add fszbn/fatsecret-workflow
    ```
 
-2. **Install the plugin:**
+3. **Install the plugin:**
    ```bash
    claude plugins install fatsecret-workflow
    ```
 
-3. **Verify it's working** — start Claude Code and run `/help` to see the available skills.
+4. **Verify it's working** — start Claude Code and run `/help` to see the available skills.
+
+**Uninstall:**
+```bash
+claude plugins uninstall fatsecret-workflow
+claude plugins marketplace remove fszbn/fatsecret-workflow
+```
 
 ## Prerequisites
 
