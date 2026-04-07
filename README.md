@@ -29,8 +29,16 @@ This plugin depends on the **superpowers** plugin for core development skills (T
 Install superpowers first:
 
 ```bash
-claude plugins add superpowers-marketplace/superpowers
+/plugin install superpowers@claude-plugins-official
 ```
+
+Or via custom marketplace:
+```bash
+/plugin marketplace add obra/superpowers-marketplace
+/plugin install superpowers@superpowers-marketplace
+```
+
+See [superpowers](https://github.com/obra/superpowers) for other platform instructions (Cursor, Codex, Gemini CLI, etc.).
 
 ### Optional MCP servers
 
