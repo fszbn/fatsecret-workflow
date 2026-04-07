@@ -16,6 +16,11 @@ Claude Code plugin for the FatSecret delivery team — orchestrates the full fea
 
 3. **Verify it's working** — start Claude Code and run `/fatsecret-workflow:story-analysis` to check the skill loads.
 
+**Update:**
+```bash
+/plugin update fatsecret-workflow
+```
+
 **Uninstall:**
 ```bash
 claude plugins uninstall fatsecret-workflow
@@ -117,14 +122,6 @@ claude mcp add codex -- codex --mcp
 Requires `OPENAI_API_KEY` environment variable.
 
 </details>
-
-### Optional plugins
-
-These are useful companions but not bundled here — install them separately:
-
-```bash
-claude plugins add claude-plugins-official/code-simplifier
-```
 
 ## Skills
 
